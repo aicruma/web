@@ -7,8 +7,6 @@
 	height: auto;
 	margin: auto;
 	position: relative;
-	
-
 }
 
 
@@ -20,7 +18,7 @@ background-size: cover;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
+font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 color: white;
 margin-left: 10px;
 font-size: 60px;
@@ -28,15 +26,15 @@ text-align: center;
 }
 
 h2{
-font-family: 'Indie Flower', cursive;
+font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 color: white;
-margin-left: 10px;
+margin-left: 40px;
 font-size: 20px;
 text-align: left; 
 }
 
 h3{
-font-family: 'Shadows Into Light', cursive;;
+font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 color: white;
 font-size: 30px;
 text-align: center; 
@@ -46,13 +44,13 @@ text-align: center;
 header{
 	width: 1000px;
 	height: 120 px;
-	background: rgba(255, 255, 255, 10,70);
+	background: rgba(0, 0, 0,1);
 }
 
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background: rgba(50, 50, 50,0.5);
 border-radius: 10px;
 
 }
@@ -65,7 +63,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: rgba(0, 0, 0,1);
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
@@ -74,7 +72,7 @@ li{
 
 section{
 	width: 700px;
-	background: gray;
+	background: rgba(50, 50, 50,0.5);
 	height: 600px;
 	float: left;
 	margin-top: 20px;
@@ -83,9 +81,9 @@ section{
 aside{
 
 	width: 280px;
-	background: white;
+	background: rgba(50, 50, 50,0.5);
 	height: 600px;
-	float: left;
+	float: right;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -93,12 +91,12 @@ aside{
 
 footer{
 width: 1000px;
-height: 70px;
-background: maroon;
+height: 80px;
+background: rgba(0, 0, 0,1);
 float: left;
-margin-top: 20px;
+margin-top: 10px;
 border-radius: 10px;
-margin-bottom: 20px;
+margin-bottom: 100px;
 }
 
 p{
@@ -108,6 +106,8 @@ p{
 	line-height: 24px;
 	padding: 10px;
 	text-align: justify;
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
 }
 
 
@@ -120,7 +120,7 @@ p{
 
 .menu:link{color: white; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px red;}
 .menu:active{color: white; text-decoration: none;}
 
 /*SEUDO CLASES*/

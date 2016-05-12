@@ -122,6 +122,7 @@ p{
 .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px red;}
 .menu:active{color: white; text-decoration: none;}
 
+.lista:list-style-type{}
 /*SEUDO CLASES*/
 
 

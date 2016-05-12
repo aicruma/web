@@ -71,7 +71,7 @@ li{
 
 section{
 	width: 700px;
-	background: rgba(50, 50, 50,0.5);
+	background: rgba(50, 50, 50, 0.9);
 	height: 600px;
 	float: left;
 	margin-top: 10px;
@@ -122,7 +122,6 @@ p{
 .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px red;}
 .menu:active{color: white; text-decoration: none;}
 
-.lista:list-style-type{}
 /*SEUDO CLASES*/
 
 

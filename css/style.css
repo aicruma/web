@@ -9,18 +9,6 @@
 	position: relative;
 }
 
-/*#galeria{
-    width: 1000px;
-	height: auto;
-	margin: auto;
-	position: relative;
-	background: rgba(50, 50, 50, 0.9);
-	height: 15600px;
-	float: left;
-	margin-top: 10px;
-	border-radius: 10px;
-} */
-
 /*ETIQUETAS*/
 body{
 background-image: url(../img/fondo.jpg);
@@ -42,6 +30,7 @@ color: white;
 margin-left: 40px;
 font-size: 20px;
 text-align: left; 
+
 }
 
 h3{
